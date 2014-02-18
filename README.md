@@ -2,11 +2,12 @@ cards
 =====
 
 **Python Playing Cards**
-Austin, Ben, Elliot, Ethan
 
 Project to simulate playing cards.
 
-Classes
+By: Austin, Ben, Elliot, Ethan
+
+**Classes:**
  - Card
  - Hand
  - Deck
