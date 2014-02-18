@@ -1,5 +1,5 @@
 import random
- 
+
 BOTTOM, RANDOM = 'bottom', 'random'
  
 class Card(object):
@@ -32,7 +32,31 @@ class Card(object):
 			return 1
 		return 0		
  
-class Deck(list):
+class Hand(list):
+	def add(self,card):
+		"put a card on top of the deck"
+		self.append(card)
+ 
+	def push(self, card):
+		"put a card on the bottom of the deck"
+		self.reverse()
+		self.append(card)
+		self.reverse()
+		
+	def removeMatches():
+		"find and remove matches based on rank AND return the number of matches found"
+		# YOU DO NOT HAVE TO DO THIS METHOD
+		pass 
+		
+	def containsRank(self, rankname):
+		"return True if the hand contains any card with this rankname"
+		pass
+		
+	def removeCardByRank(self, rankname):
+		"remove ONE card that has this rankname"
+		pass
+ 
+class Deck(Hand):
 	"""docstring for Deck"""
 	def __init__(self, ranks=None, suits=None):
 		self.ranks = ranks or [
@@ -63,16 +87,14 @@ class Deck(list):
  
 	def shuffle(self):
 		"shuffle the deck"
-		pass
+		for i in range(7):
+			random.shuffle(self)
  
 	def cut(self):
 		"split the deck in two and put the top half ( about half ) on the bottom"
-		pass
- 
-	def add(self,card):
-		"put a card on top of the deck"
-		pass
- 
-	def push(self, card):
-		"put a card on the bottom of the deck"
-		pass
+		deck_length = len(self)
+		start = deck_length/4
+		end = deck_length - start
+		cuthere = random.randint(start, end)
+		newdeck = self[cuthere:] + self[:cuthere]
+		self = newdeck
