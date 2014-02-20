@@ -13,4 +13,7 @@ By: Austin, Ben, Elliot, Ethan
  - Deck
 
 **Comments**
-Everyone feel free to comment here. You can edit this text simply by editing the README.md file.
+
+**Elliot:** Everyone feel free to comment here. You can edit this text simply by editing the README.md file.
+
+(Your comments will go here)
