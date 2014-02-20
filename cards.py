@@ -87,3 +87,8 @@ class Deck(Hand):
 		cuthere = random.randint(start, end)
 		newdeck = self[cuthere:] + self[:cuthere]
 		self = newdeck
+		
+	def discard(self):
+		"discards card or current card into a seperate discard pile"
+		""" I really don't know exactlly how to program this, but I know you'll
+		need to be able to put this deck in the main deck once it main one runs out."
