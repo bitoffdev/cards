@@ -43,6 +43,11 @@ class Hand(list):
 		self.append(card)
 		self.reverse()
 		
+	def containsRank(self, rankname):
+		"return True if the hand contains any card with this rankname"
+		return any([rankname==i._rankname for i in self])
+		pass
+		
 	
  
 class Deck(Hand):
