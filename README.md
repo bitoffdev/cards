@@ -11,3 +11,6 @@ By: Austin, Ben, Elliot, Ethan
  - Card
  - Hand
  - Deck
+
+**Comments**
+Everyone feel free to comment here. You can edit this text simply by editing the README.md file.
