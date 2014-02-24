@@ -42,14 +42,23 @@ class Hand(list):
 		self.reverse()
 		self.append(card)
 		self.reverse()
+
+	def removeMatches():
+		"find and remove matches based on rank AND return the number of matches found"
+		# YOU DO NOT HAVE TO DO THIS METHOD
+		pass 
 		
 	def containsRank(self, rankname):
 		"return True if the hand contains any card with this rankname"
 		return any([rankname==i._rankname for i in self])
 		pass
+	
+	def removeCardByRank(self, rankname):
+		"remove ONE card that has this rankname"
+		pass
 		
 	
- 
+
 class Deck(Hand):
 	"""docstring for Deck"""
 	def __init__(self, ranks=None, suits=None):
