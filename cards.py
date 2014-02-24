@@ -1,7 +1,7 @@
 import random
 print "you come across an old carny booth, suddenly four computer science students pop out."
 
-print "they wan to play a game"
+print "they want to play a game"
 print "Welcome to the war game of the ages! This is War, by Elliot, Ethan, Austin, and Ben!"
 print "War is a card game in which two cards from seperate, random, decks are drawn and pitted against each other."
 print "The goal of War is to have the higher card of the pair."
