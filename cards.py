@@ -5,6 +5,7 @@ print "The goal of War is to have the higher card of the pair."
 print "If the same rank is drawn, both players will draw three more cards, placed face down, and reveal them one at a time to eachother"
 print "Whoever has the highest combination of the pairs wins the battle, and the cards."
 print "At the end, whoever has the most cards wins the game, and bragging rights."
+print "Now get ready.... TO PLAY WAR! (Lights and music go off.)"
 BOTTOM, RANDOM = 'bottom', 'random'
  
 class Card(object):
