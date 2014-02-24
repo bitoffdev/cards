@@ -1,5 +1,10 @@
 import random
 print "Welcome to the war game of the ages! This is War, by Elliot, Ethan, Austin, and Ben!"
+print "War is a card game in which two cards from seperate, random, decks are drawn and pitted against each other."
+print "The goal of War is to have the higher card of the pair."
+print "If the same rank is drawn, both players will draw three more cards, placed face down, and reveal them one at a time to eachother"
+print "Whoever has the highest combination of the pairs wins the battle, and the cards."
+print "At the end, whoever has the most cards wins the game, and bragging rights."
 BOTTOM, RANDOM = 'bottom', 'random'
  
 class Card(object):
