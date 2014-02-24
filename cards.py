@@ -9,6 +9,10 @@ print "If the same rank is drawn, both players will draw three more cards, place
 print "Whoever has the highest combination of the pairs wins the battle, and the cards."
 print "At the end, whoever has the most cards wins the game, and bragging rights."
 print "Now get ready.... TO PLAY WAR! (Lights and music go off.)"
+print "You ask if you are on a game show"
+print "you suddenly realize this is exactly like Cash Cab."
+print "the nerds are upset over this"
+print "they will still let you play though"
 BOTTOM, RANDOM = 'bottom', 'random'
  
 class Card(object):
