@@ -62,6 +62,8 @@ class Hand(list):
 	def removeCardByRank(self, rankname):
 		"remove ONE card that has this rankname"
 		pass
+
+#THIS NEEDS MORE PIZZAZZ
 		
 	
 
