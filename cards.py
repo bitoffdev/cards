@@ -1,5 +1,5 @@
 import random
-
+print "Welcome to the war game of the ages! This is War, by Elliot, Ethan, Austin, and Ben!"
 BOTTOM, RANDOM = 'bottom', 'random'
  
 class Card(object):
@@ -54,7 +54,7 @@ class Deck(Hand):
 	"""docstring for Deck"""
 	def __init__(self, ranks=None, suits=None):
 		self.ranks = ranks or [
-		"Duece", "Three", "Four", "Five",
+		"Two", "Three", "Four", "Five",
 		"Six", "Seven", "Eight", "Nine", "Ten",
 		"Jack", "Queen", "King", "Ace"]
 		self.suits = suits or [
