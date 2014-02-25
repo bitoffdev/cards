@@ -55,6 +55,11 @@ class Hand(list):
 		# YOU DO NOT HAVE TO DO THIS METHOD
 	
 		pass 
+	#Ben
+	def getMatches(self):
+		return self._matches
+		
+		pass
 	# Elliot	
 	def containsRank(self, rankname):
 		"return True if the hand contains any card with this rankname"
