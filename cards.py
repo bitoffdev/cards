@@ -1,18 +1,12 @@
 import random
-print "you come across an old carny booth, suddenly four computer science students pop out."
-
-print "they want to play a game"
-print "Welcome to the war game of the ages! This is War, by Elliot, Ethan, Austin, and Ben!"
-print "War is a card game in which two cards from seperate, random, decks are drawn and pitted against each other."
-print "The goal of War is to have the higher card of the pair."
-print "If the same rank is drawn, both players will draw three more cards, placed face down, and reveal them one at a time to eachother"
-print "Whoever has the highest combination of the pairs wins the battle, and the cards."
-print "At the end, whoever has the most cards wins the game, and bragging rights."
-print "Now get ready.... TO PLAY WAR! (Lights and music go off.)"
-print "You ask if you are on a game show"
-print "you suddenly realize this is exactly like Cash Cab."
-print "the nerds are upset over this"
-print "they will still let you play though"
+# Ben
+print """Welcome to the war game of the ages! This is War, by Elliot, Ethan, Austin, and Ben!
+War is a card game in which two cards from seperate, random, decks are drawn and pitted against each other.
+The goal of War is to have the higher card of the pair.
+If the same rank is drawn, both players will draw three more cards, placed face down, and reveal them one at a time to eachother
+Whoever has the highest combination of the pairs wins the battle, and the cards.
+At the end, whoever has the most cards wins the game, and bragging rights."""
+# Elliot
 BOTTOM, RANDOM = 'bottom', 'random'
  
 class Card(object):
@@ -55,26 +49,26 @@ class Hand(list):
 		self.reverse()
 		self.append(card)
 		self.reverse()
-
+	# Ethan
 	def removeMatches():
 		"find and remove matches based on rank AND return the number of matches found"
 		# YOU DO NOT HAVE TO DO THIS METHOD
 	
 		pass 
-		
+	# Elliot	
 	def containsRank(self, rankname):
 		"return True if the hand contains any card with this rankname"
 		return any([rankname==i._rankname for i in self])
 		pass
-	
+	# Ethan
 	def removeCardByRank(self, rankname):
 		"remove ONE card that has this rankname"
 		pass
 
-#THIS NEEDS MORE PIZZAZZ
+
 		
 	
-
+# Elliot
 class Deck(Hand):
 	"""docstring for Deck"""
 	def __init__(self, ranks=None, suits=None):
