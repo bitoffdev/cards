@@ -1,11 +1,13 @@
 import random
+
 # Ben
 print """Welcome to the war game of the ages! This is War, by Elliot, Ethan, Austin, and Ben!
 War is a card game in which two cards from seperate, random, decks are drawn and pitted against each other.
 The goal of War is to have the higher card of the pair.
-If the same rank is drawn, both players will draw three more cards, placed face down, and reveal them one at a time to eachother
+If the same rank is drawn, both players will draw three more cards, placed face down, and reveal them one at a time to each other
 Whoever has the highest combination of the pairs wins the battle, and the cards.
 At the end, whoever has the most cards wins the game, and bragging rights."""
+
 # Elliot
 BOTTOM, RANDOM = 'bottom', 'random'
  
@@ -63,8 +65,6 @@ class Hand(list):
 				return self.pop(i)
 		return False
 
-
-		
 	
 # Elliot
 class Deck(Hand):
@@ -81,8 +81,6 @@ class Deck(Hand):
 			for suit, suitname in enumerate(self.suits):
 				self.append(Card(rank,suit,rankname,suitname))
  
- 
- 
 	def draw(self, which=None):
 		"draw the top card ( removes that card )"
 		try:
@@ -95,7 +93,6 @@ class Deck(Hand):
 		except:
 			return self.pop()
 			
- 
 	def shuffle(self):
 		"shuffle the deck"
 		for i in range(7):
