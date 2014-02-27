@@ -57,8 +57,11 @@ class Hand(list):
 		
 	# Ethan
 	def removeCardByRank(self, rankname):
-		"remove ONE card that has this rankname"
-		pass
+		"remove ONE card that has this rankname, else return False"
+		for i in range(len(self)):
+			if self[i]._rankname == rankname:
+				return self.pop(i)
+		return False
 
 
 		
