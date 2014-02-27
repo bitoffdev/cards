@@ -60,4 +60,5 @@ class War(object):
 					break
 		return self.play()
 		
-print War().play()
+if __name__ == "__main__":
+	print War().play()
