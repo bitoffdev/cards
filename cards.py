@@ -62,7 +62,7 @@ class Hand(list):
 		"remove ONE card that has this rankname, else return False"
 		for austin in range(len(self)):
 			if self[austin]._rankname == rankname:
-				return self.pop(i)
+				return self.pop(austin)
 		return False
 
 	
