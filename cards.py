@@ -1,13 +1,6 @@
 import random
 
-# Ben
-print """Welcome to the war game of the ages! This is War, by Elliot, Ethan, Austin, and Ben!
-War is a card game in which two cards from seperate, random, decks are drawn and pitted against each other.
-The goal of War is to have the higher card of the pair.
-If the same rank is drawn, both players will draw three more cards, placed face down, and reveal them one at a time to each other
-Whoever has the highest combination of the pairs wins the battle, and the cards.
-At the end, whoever has the most cards wins the game, and bragging rights."""
-
+#I moved the intro to war.py
 # Elliot
 BOTTOM, RANDOM = 'bottom', 'random'
  
